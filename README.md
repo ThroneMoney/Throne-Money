@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/Status-Alpha-yellow?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/Type-Bankr%20Skill-blue?style=flat-square" alt="Type"/>
   <img src="https://img.shields.io/badge/Focus-Risk--Adjusted%20Yield-green?style=flat-square" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Architecture-Hierarchical-orange?style=flat-square" alt="Architecture"/>
+  <img src="https://img.shields.io/badge/Launch-Base%20via%20Bankr-orange?style=flat-square" alt="Launch"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License"/>
 </p>
 
@@ -91,6 +91,27 @@ It manages capital like a sovereign fund — prioritizing **survival first**, th
 
 ---
 
+## $THRONE Token
+
+$THRONE is the native token of Throne Money, launched on **Base** via **Bankr**.
+
+It follows the Bankr agent economy model:
+
+- Fair launch
+- Trading fees flow back to the Throne Money agent
+- Real utility inside the product
+- Self-sustaining loop between usage and improvement
+
+### Core Utility
+- Fee discounts for holders
+- Priority access to Spec Throne opportunities
+- Alignment between users and the agent
+- Future governance over key parameters
+
+More details: [`/tokenomics`](tokenomics/)
+
+---
+
 ## Quick Start
 
 Install the skill on your Bankr agent:
@@ -99,10 +120,10 @@ Install the skill on your Bankr agent:
 install the Throne Money skill from https://github.com/ThroneMoney/Throne-Money
 ```
 
-Or simply tell your Bankr agent:
+Then activate it:
 
 ```text
-Install Throne Money and activate Co-Pilot mode with medium risk tolerance
+Activate Throne Money in Co-Pilot mode with medium risk tolerance
 ```
 
 ---
@@ -120,20 +141,22 @@ Detailed system design lives in the `references/` folder:
 - [Points Maximizer](references/points-maximizer.md)
 - [Safety Guidelines](references/safety.md)
 
+Token design: [`/tokenomics`](tokenomics/)
+
 ---
 
 ## Roadmap
 
 - [x] Concept & Architecture
 - [x] Core Skill Structure + References
+- [x] Tokenomics draft (Bankr-native)
 - [ ] Yield Engine (MVP)
 - [ ] Risk Scoring System
 - [ ] Hierarchical Portfolio Logic
 - [ ] Rebalancing Engine
 - [ ] Liquidation Shield
-- [ ] Performance Reports
-- [ ] Public Skill Release
-- [ ] $THRONE Token Integration (future)
+- [ ] Public Skill Traction
+- [ ] $THRONE Launch on Base via Bankr
 
 ---
 
@@ -147,10 +170,12 @@ Detailed system design lives in the `references/` folder:
 
 ## Disclaimer
 
-Throne Money is currently in active development and is experimental software.  
+Throne Money is currently in active development and is experimental software.
 
 It assists with capital management but does **not** guarantee profits or protection from losses.  
 Users remain fully responsible for their own capital. Always do your own research and never risk more than you can afford to lose.
+
+$THRONE tokenomics is still in draft stage and subject to change.
 
 ---
 

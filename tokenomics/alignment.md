@@ -10,3 +10,5 @@ The core economic loop of Throne Money:
 6. Better system → more users → stronger loop
 
 This is the Bankr agent economy model applied to a yield management skill.
+
+Holding $THRONE strengthens alignment between the user and the agent.

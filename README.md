@@ -20,10 +20,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Alpha-yellow?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square" alt="Status"/>
   <img src="https://img.shields.io/badge/Type-Bankr%20Skill-blue?style=flat-square" alt="Type"/>
   <img src="https://img.shields.io/badge/Focus-Risk--Adjusted%20Yield-green?style=flat-square" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Launch-Base%20via%20Bankr-orange?style=flat-square" alt="Launch"/>
+  <img src="https://img.shields.io/badge/$THRONE-Live%20on%20Base-orange?style=flat-square" alt="Token"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License"/>
 </p>
 
@@ -43,6 +43,29 @@ It manages capital like a sovereign fund — prioritizing **survival first**, th
 - **Hierarchical Allocation** — Core / Growth / Spec / Shield layers
 - **Intelligent Rebalancing** — Regime-aware and gas-efficient
 - **User Sovereignty** — You remain in full control at all times
+
+---
+
+## $THRONE Token
+
+**$THRONE is live on Base.**
+
+| Field | Value |
+|-------|-------|
+| **Network** | Base |
+| **Contract** | [`0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3`](https://basescan.org/address/0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3) |
+| **Trade** | [bankr.bot](https://bankr.bot/terminal/trade?out=0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3&chain=base) |
+| **Launch** | Fair launch via Bankr |
+
+### Utility
+- Fee discounts for holders
+- Priority access to Spec Throne opportunities
+- Alignment between users and the agent
+- Creator fees flow back to the Throne Money agent
+
+More details: [`/tokenomics`](tokenomics/)
+
+> Official contract only. Any other address is fake.
 
 ---
 
@@ -91,27 +114,6 @@ It manages capital like a sovereign fund — prioritizing **survival first**, th
 
 ---
 
-## $THRONE Token
-
-$THRONE is the native token of Throne Money, launched on **Base** via **Bankr**.
-
-It follows the Bankr agent economy model:
-
-- Fair launch
-- Trading fees flow back to the Throne Money agent
-- Real utility inside the product
-- Self-sustaining loop between usage and improvement
-
-### Core Utility
-- Fee discounts for holders
-- Priority access to Spec Throne opportunities
-- Alignment between users and the agent
-- Future governance over key parameters
-
-More details: [`/tokenomics`](tokenomics/)
-
----
-
 ## Quick Start
 
 Install the skill on your Bankr agent:
@@ -150,13 +152,13 @@ Token design: [`/tokenomics`](tokenomics/)
 - [x] Concept & Architecture
 - [x] Core Skill Structure + References
 - [x] Tokenomics draft (Bankr-native)
+- [x] **$THRONE live on Base**
 - [ ] Yield Engine (MVP)
 - [ ] Risk Scoring System
 - [ ] Hierarchical Portfolio Logic
 - [ ] Rebalancing Engine
 - [ ] Liquidation Shield
 - [ ] Public Skill Traction
-- [ ] $THRONE Launch on Base via Bankr
 
 ---
 
@@ -164,18 +166,17 @@ Token design: [`/tokenomics`](tokenomics/)
 
 - **X (Twitter)**: [x.com/ThroneMoney](https://x.com/ThroneMoney)
 - **GitHub**: [github.com/ThroneMoney/Throne-Money](https://github.com/ThroneMoney/Throne-Money)
+- **Trade $THRONE**: [bankr.bot](https://bankr.bot/terminal/trade?out=0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3&chain=base)
 - **Bankr**: [bankr.bot](https://bankr.bot)
 
 ---
 
 ## Disclaimer
 
-Throne Money is currently in active development and is experimental software.
+Throne Money is experimental software.
 
 It assists with capital management but does **not** guarantee profits or protection from losses.  
 Users remain fully responsible for their own capital. Always do your own research and never risk more than you can afford to lose.
-
-$THRONE tokenomics is still in draft stage and subject to change.
 
 ---
 

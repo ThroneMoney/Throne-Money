@@ -1,19 +1,32 @@
-# Launch Plan
+# Launch
+
+## Status
+
+**Live**
+
+| Field | Value |
+|-------|-------|
+| Network | Base |
+| Platform | Bankr |
+| Contract | `0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3` |
+| Trade | [Open on Bankr](https://bankr.bot/terminal/trade?out=0xE97215d2907b97C1A54AeA4d34D5a3021562aBa3&chain=base) |
 
 ## Method
-- Launch via **Bankr** on **Base**
-- Fair launch (no private sale, no heavy insider allocation)
-- Token is immediately tradable
+- Fair launch via Bankr on Base
+- No private sale
+- Immediately tradable
 
-## Goals of Launch
+## Official Sources Only
 
-1. Bootstrap attention and community
-2. Create real fee flow to the Throne Money agent
-3. Align early users with the system
-4. Keep distribution as open as possible
+The official deploy was announced from:
+- X account: [@ThroneMoney](https://x.com/ThroneMoney)
+- Wallet: `0x9587c498b7d602f8180614f08ca47a6cd276a247`
+
+Any other contract or announcement is fake.
 
 ## Post-Launch
 
-- Activate fee discounts for $THRONE holders
-- Begin using creator fees to fund agent operations
-- Gradually expand utility
+- Fee discounts activated inside the skill
+- Priority access for holders enabled
+- Creator fees flow to the Throne Money agent
+- Utility continues to expand with usage

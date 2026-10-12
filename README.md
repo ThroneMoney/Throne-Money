@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://iili.io/nVQ7ZqG.md.jpg" alt="Throne Money Logo" width="280"/>
+  <img src="https://iili.io/nVQ7ZqG.md.jpg" alt="Throne Money Logo" width="220"/>
 </p>
 
 <h1 align="center">Throne Money</h1>
@@ -20,10 +20,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status"/>
-  <img src="https://img.shields.io/badge/Type-Bankr%20Skill%20%2F%20Agent-blue?style=flat-square" alt="Type"/>
+  <img src="https://img.shields.io/badge/Status-Alpha-yellow?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/Type-Bankr%20Skill-blue?style=flat-square" alt="Type"/>
   <img src="https://img.shields.io/badge/Focus-Risk--Adjusted%20Yield-green?style=flat-square" alt="Focus"/>
-  <img src="https://img.shields.io/badge/Chains-Multi--Chain-orange?style=flat-square" alt="Chains"/>
+  <img src="https://img.shields.io/badge/Architecture-Hierarchical-orange?style=flat-square" alt="Architecture"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License"/>
 </p>
 
@@ -31,101 +31,126 @@
 
 ## Overview
 
-**Throne Money** is an advanced multi-chain yield management agent built for the Bankr ecosystem.  
+**Throne Money** is an advanced multi-chain yield management skill built for the Bankr ecosystem.
 
-It doesn’t just chase the highest APY.  
-It rules capital like a sovereign fund manager — prioritizing survival, then growth, then compounding.
+It does not chase the highest APY.  
+It manages capital like a sovereign fund — prioritizing **survival first**, then risk-adjusted growth, then compounding.
 
 ### Core Principles
-- **Risk First** — Survival of capital is non-negotiable
-- **Risk-Adjusted Yield** — Not raw APY, but real net yield after risk
+
+- **Risk First** — Capital preservation is non-negotiable
+- **Risk-Adjusted Yield** — Real net yield after gas, risk, and opportunity cost
 - **Hierarchical Allocation** — Core / Growth / Spec / Shield layers
 - **Intelligent Rebalancing** — Regime-aware and gas-efficient
-- **Full Sovereignty** — You remain in control at all times
+- **User Sovereignty** — You remain in full control at all times
 
 ---
 
-## Key Features
+## Portfolio Architecture
+
+| Layer              | Target Allocation | Purpose                                      | Risk Level |
+|--------------------|-------------------|----------------------------------------------|------------|
+| **Core Throne**    | 60–70%            | Stable, low-volatility yield                 | Low        |
+| **Growth Throne**  | 20–30%            | Higher yield with controlled risk            | Medium     |
+| **Spec Throne**    | 5–10%             | High-conviction opportunities + points       | High       |
+| **Shield Reserve** | 5%                | Always-liquid emergency capital              | Minimal    |
+
+---
+
+## Key Capabilities
 
 ### Multi-Dimensional Yield Engine
-- Scans 15+ protocols across Base, Arbitrum, Optimism, Solana, Ethereum & Robinhood Chain
-- Custom **Throne Score** (0–100) combining yield, liquidity, risk, and smart money signals
+- Scans opportunities across Base, Arbitrum, Optimism, Solana, Ethereum, and Robinhood Chain
+- Custom **Throne Score** (0–100) combining yield, liquidity, protocol risk, and smart money signals
 - Net real yield calculation (after gas + risk)
 
-### Portfolio Architecture
-| Layer            | Allocation     | Purpose                          |
-|------------------|----------------|----------------------------------|
-| **Core Throne**  | 60–70%         | Stable, low-volatility yield     |
-| **Growth Throne**| 20–30%         | Higher yield with controlled risk|
-| **Spec Throne**  | 5–10%          | High-conviction / points farming |
-| **Shield Reserve**| 5%            | Always liquid emergency capital  |
-
 ### Advanced Risk Management
-- Real-time liquidation & depeg monitoring
-- Auto-hedge capability
+- Real-time liquidation and depeg monitoring
 - Max drawdown circuit breakers
-- Protocol blacklist system
+- Protocol risk scoring and blacklist system
 - Correlation-aware position sizing
+- Shield Reserve for emergency actions
 
-### Other Capabilities
+### Intelligent Operations
+- Hierarchical rebalancing (scheduled + threshold + regime-based)
 - Points & airdrop maximizer
 - Performance attribution reports
-- What-if simulator & stress testing
-- Multiple control modes (Full Sovereign / Co-Pilot / Manual)
-- Scheduled automations & event triggers
+- What-if simulator and stress testing
+- Multiple control modes
 
 ---
 
 ## Control Modes
 
-- **Full Sovereign** — Agent manages everything within hard risk limits
-- **Co-Pilot** — Agent proposes, you approve
-- **Manual Override** — Instant full control anytime
-- **Paper Throne** — Test strategies risk-free before going live
+| Mode               | Description                                      | Best For                  |
+|--------------------|--------------------------------------------------|---------------------------|
+| **Full Sovereign** | Agent executes within hard risk limits           | Trusted autonomous use    |
+| **Co-Pilot**       | Agent proposes, user approves major moves        | Recommended default       |
+| **Manual Override**| Agent only executes exact user commands          | Precise control           |
+| **Paper Throne**   | Live simulation with zero real capital risk      | Testing & validation      |
 
 ---
 
-## Quick Start (Coming Soon)
+## Quick Start
 
-```bash
-# Install the skill on Bankr
-install the Throne Money skill from https://github.com/ThroneMoney/throne-money
+Install the skill on your Bankr agent:
+
+```text
+install the Throne Money skill from https://github.com/ThroneMoney/Throne-Money
 ```
 
 Or simply tell your Bankr agent:
 
-```
-Install Throne Money and activate Full Sovereign mode with medium risk tolerance
+```text
+Install Throne Money and activate Co-Pilot mode with medium risk tolerance
 ```
 
 ---
 
-## Links
+## Documentation
 
-- **X (Twitter)**: [x.com/ThroneMoney](https://x.com/ThroneMoney)
-- **Bankr**: [bankr.bot](https://bankr.bot)
-- **Documentation**: Coming soon
+Detailed system design lives in the `references/` folder:
+
+- [Throne Score System](references/throne-score.md)
+- [Portfolio Layers](references/portfolio-layers.md)
+- [Risk Rules](references/risk-rules.md)
+- [Rebalancing Engine](references/rebalancing.md)
+- [Control Modes](references/control-modes.md)
+- [Reporting](references/reporting.md)
+- [Points Maximizer](references/points-maximizer.md)
+- [Safety Guidelines](references/safety.md)
 
 ---
 
 ## Roadmap
 
 - [x] Concept & Architecture
-- [ ] Core Yield Engine (MVP)
+- [x] Core Skill Structure + References
+- [ ] Yield Engine (MVP)
 - [ ] Risk Scoring System
-- [ ] Hierarchical Portfolio Layers
+- [ ] Hierarchical Portfolio Logic
 - [ ] Rebalancing Engine
 - [ ] Liquidation Shield
 - [ ] Performance Reports
-- [ ] $THRONE Token Integration
 - [ ] Public Skill Release
+- [ ] $THRONE Token Integration (future)
+
+---
+
+## Links
+
+- **X (Twitter)**: [x.com/ThroneMoney](https://x.com/ThroneMoney)
+- **GitHub**: [github.com/ThroneMoney/Throne-Money](https://github.com/ThroneMoney/Throne-Money)
+- **Bankr**: [bankr.bot](https://bankr.bot)
 
 ---
 
 ## Disclaimer
 
-Throne Money is currently in active development.  
-This is experimental software. Always do your own research and never risk more than you can afford to lose. Past performance is not indicative of future results.
+Throne Money is currently in active development and is experimental software.  
+
+It assists with capital management but does **not** guarantee profits or protection from losses.  
+Users remain fully responsible for their own capital. Always do your own research and never risk more than you can afford to lose.
 
 ---
 
@@ -134,7 +159,7 @@ This is experimental software. Always do your own research and never risk more t
 </p>
 
 <p align="center">
-  <img src="https://iili.io/nVQ7ZqG.md.jpg" alt="Throne Money" width="80"/>
+  <img src="https://iili.io/nVQ7ZqG.md.jpg" alt="Throne Money" width="70"/>
 </p>
 ```
 
